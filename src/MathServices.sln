@@ -7,6 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathLibrary", "MathLibrary\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathServicesConsoleApp", "MathServicesConsoleApp\MathServicesConsoleApp.csproj", "{12F2ADDE-0C1C-4ABC-AE5C-0FF4195C28D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspDotNetMathService", "AspDotNetMathService\AspDotNetMathService.csproj", "{AF07F721-7D1C-4480-971E-C29B43759C5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspDotNetMathServiceClientApp", "AspDotNetMathServiceClientApp\AspDotNetMathServiceClientApp.csproj", "{3D08DDED-C5F2-4E8D-9AC3-73C91FF06049}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AF07F721-7D1C-4480-971E-C29B43759C5D} = {AF07F721-7D1C-4480-971E-C29B43759C5D}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +28,14 @@ Global
 		{12F2ADDE-0C1C-4ABC-AE5C-0FF4195C28D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12F2ADDE-0C1C-4ABC-AE5C-0FF4195C28D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12F2ADDE-0C1C-4ABC-AE5C-0FF4195C28D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF07F721-7D1C-4480-971E-C29B43759C5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF07F721-7D1C-4480-971E-C29B43759C5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF07F721-7D1C-4480-971E-C29B43759C5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF07F721-7D1C-4480-971E-C29B43759C5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D08DDED-C5F2-4E8D-9AC3-73C91FF06049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D08DDED-C5F2-4E8D-9AC3-73C91FF06049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D08DDED-C5F2-4E8D-9AC3-73C91FF06049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D08DDED-C5F2-4E8D-9AC3-73C91FF06049}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
