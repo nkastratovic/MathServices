@@ -14,6 +14,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspDotNetMathServiceClientA
 		{AF07F721-7D1C-4480-971E-C29B43759C5D} = {AF07F721-7D1C-4480-971E-C29B43759C5D}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfMathService", "WcfMathService\WcfMathService.csproj", "{AE2961DD-07D6-4013-80F3-E09FFB9A35B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfMathServiceHost", "WcfMathServiceHost\WcfMathServiceHost.csproj", "{3125D52E-4AE0-4550-B1B1-7FEDF606AB15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfMathServiceClientApp", "WcfMathServiceClientApp\WcfMathServiceClientApp.csproj", "{FFA379F1-A43F-4EDE-AF1A-4D22129B1710}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +42,18 @@ Global
 		{3D08DDED-C5F2-4E8D-9AC3-73C91FF06049}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D08DDED-C5F2-4E8D-9AC3-73C91FF06049}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D08DDED-C5F2-4E8D-9AC3-73C91FF06049}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE2961DD-07D6-4013-80F3-E09FFB9A35B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE2961DD-07D6-4013-80F3-E09FFB9A35B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE2961DD-07D6-4013-80F3-E09FFB9A35B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE2961DD-07D6-4013-80F3-E09FFB9A35B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3125D52E-4AE0-4550-B1B1-7FEDF606AB15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3125D52E-4AE0-4550-B1B1-7FEDF606AB15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3125D52E-4AE0-4550-B1B1-7FEDF606AB15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3125D52E-4AE0-4550-B1B1-7FEDF606AB15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFA379F1-A43F-4EDE-AF1A-4D22129B1710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFA379F1-A43F-4EDE-AF1A-4D22129B1710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFA379F1-A43F-4EDE-AF1A-4D22129B1710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFA379F1-A43F-4EDE-AF1A-4D22129B1710}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
